@@ -45,7 +45,7 @@ const Main = () => {
         <div className="first--cont">
           <div className="main--img--pokemon">
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+              src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/a42c8faef644768.png"
               alt="pkemos"
             />
           </div>
@@ -62,7 +62,7 @@ const Main = () => {
         <div className="first--cont">
           <div className="main--img--pokemon">
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+              src="https://img.pokemondb.net/sprites/sword-shield/normal/snorlax.png"
               alt="pkemos"
             />
           </div>
@@ -79,7 +79,7 @@ const Main = () => {
         <div className="first--cont">
           <div className="main--img--pokemon">
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+              src="http://guidesmedia.ign.com/guides/059687/images/blackwhite/pokemans_025.gif"
               alt="pkemos"
             />
           </div>

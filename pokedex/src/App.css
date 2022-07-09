@@ -11,21 +11,26 @@ nav {
  
   width: 100%;
   height: 120px;
-  background: #CC0000;
+  background: black;
   box-shadow: 0px 4.98256px 7.4564px rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content:space-between;
 }
 
-.navbar-img {
+.navbar--img {
   margin-top: 10px;
-  width: 160px;
+  width: 300px;
+ 
+}
+.nav--pikachu img{
+  width: 120px;
+  height: 120px;
  
 }
 
 .navbar--btn{
 border: none;
-background-color:  #CC0000;
+background-color: black;
 font-family: 'Montserrat', sans-serif;
 text-transform: uppercase;
 }
@@ -37,11 +42,16 @@ cursor: pointer;
 }
 .navbar--btn img{
   display: flex;
-  margin-top: 10px;
-  width:300px;
-  
+  margin-top:50px;
+  width:400px;
+  align-items: baseline;
 
-
+}
+.nav--fav--pokemons{
+ font-size: 50px;
+display: flex;
+align-items:center ;
+color: aliceblue;
 }
 
 /* ================ MAIN PAGE ===================== */
@@ -78,7 +88,9 @@ cursor: pointer;
 
 /* ================ SEARCHBAR PAGE ===================== */ 
 
-
+.carregando{
+  font-size: 55px;
+}
 .searchbar--container{
 display: flex;
 margin: 0px auto;
@@ -89,7 +101,7 @@ margin-top: 70px;
 }
 .searchbar input{
   padding: 10px;
-  box-shadow: 0px 2px 2px (0,0,0,0.25);
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.25);
   margin-right: 20px;
   border-radius: 3px;
   border: 3px solid black;
@@ -107,4 +119,58 @@ font-size: 20px;
   height: 44px;
   color: white;
   padding: 10px 12px;
+}
+.busca-pokemon-container{
+display: flex;
+flex-direction: column
+}
+.not-found-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.not-found-textPokemon{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* POKEMON.JS */
+.pokemon-heart-btn button{
+  border: none;
+  background-color: black;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  cursor: pointer;
+
+}
+.pokemon-type-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pokemon-heart-btn {
+  border: none;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+.pokemon-img{
+  width: 100%;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.not-found-text {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 20px;
 }

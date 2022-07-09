@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import DetailsPage from '../pages/DetailsPage/DetailsPage';
 import Main from '../pages/HomePage/Main';
 import PokedexPage from '../pages/PokedexPage/PokedexPage';
+import DetailsPage from '../pages/DetailsPage/DetailsPage';
 
 const Router = () => {
   return (
